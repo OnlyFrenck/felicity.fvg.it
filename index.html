@@ -5,17 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Comune di Felicity</title>
   <link rel="stylesheet" href="/style.css">
-  <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
 </head>
 <body>
   <header>
     <div class="logo">
-      <img src="assets/logo.png" alt="Stemma Comune di Felicity">
+      <img src="/assets/logo.png" alt="Stemma Comune di Felicity">
       <h1>Comune di Felicity</h1>
     </div>
     <nav>
       <ul>
-        <li><a href="/">Home</a></li>
+        <li><a href="/" class="active">Home</a></li>
         <li><a href="/amministrazione">Amministrazione</a></li>
         <li><a href="/servizi">Servizi</a></li>
         <li><a href="/news">News</a></li>
@@ -25,24 +25,66 @@
   </header>
 
   <main>
-    <section class="hero">
-      <h2>Benvenuti a Felicity</h2>
-      <p>Il portale ufficiale del Comune di Felicity</p>
+    <!-- Benvenuto -->
+    <section>
+      <h2>Benvenuti nel Comune di Felicity</h2>
+      <p>
+        Il Comune di Felicity è al servizio dei cittadini con trasparenza, efficienza e innovazione. 
+        Sul nostro portale troverete informazioni aggiornate su servizi, uffici, eventi e comunicazioni ufficiali.
+      </p>
     </section>
 
-    <section class="link-rapidi">
-      <h3>Servizi principali</h3>
-      <div class="cards">
-        <a href="/servizi/anagrafe" class="card">Anagrafe</a>
-        <a href="/servizi/tributi" class="card">Tributi</a>
-        <a href="/servizi/eventi" class="card">Eventi</a>
+    <!-- Servizi rapidi -->
+    <section>
+      <h2>Servizi principali</h2>
+      <div class="grid">
+        <a class="card" href="/servizi/anagrafe">
+          <h3>Anagrafe</h3>
+          <p>Carte d’identità, certificati, residenze.</p>
+        </a>
+        <a class="card" href="/servizi/stato_civile">
+          <h3>Stato Civile</h3>
+          <p>Nascite, matrimoni, unioni civili, decessi.</p>
+        </a>
+        <a class="card" href="/servizi/tributi">
+          <h3>Tributi</h3>
+          <p>Tasse comunali e informazioni sui pagamenti.</p>
+        </a>
+        <a class="card" href="/servizi/istruzione">
+          <h3>Istruzione</h3>
+          <p>Scuole, mense e trasporto scolastico.</p>
+        </a>
       </div>
+    </section>
+
+    <!-- News in evidenza -->
+    <section>
+      <h2>Ultime notizie</h2>
+      <article class="news">
+        <h3>📢 Avviso: Chiusura uffici comunali</h3>
+        <p>Gli uffici resteranno chiusi il 15 settembre per festività patronale.</p>
+      </article>
+      <article class="news">
+        <h3>🚌 Nuovo servizio di trasporto scolastico</h3>
+        <p>Dal 1° ottobre attivo il nuovo piano autobus per le scuole.</p>
+      </article>
+      <p><a href="/news">Leggi tutte le notizie →</a></p>
+    </section>
+
+    <!-- Eventi -->
+    <section>
+      <h2>Eventi in programma</h2>
+      <ul>
+        <li><strong>10 settembre:</strong> Festa della comunità</li>
+        <li><strong>18 settembre:</strong> Inaugurazione della biblioteca comunale</li>
+        <li><strong>25 settembre:</strong> Giornata dello sport cittadino</li>
+      </ul>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Comune di Felicity - Tutti i diritti riservati</p>
-    <p>Email: <a href="mailto:urp@comune.felicity.fvg.it">urp@comune.felicity.fvg.it</a> | PEC: <a href="mailto:cert@comune.felicity.fvg.it">cert@comune.felicity.fvg.it</a></p>
+    <p>© 2025 Comune di Felicity</p>
+    <p>Email: <a href="mailto:info@comunefelicity.eu">info@comunefelicity.eu</a> | PEC: <a href="mailto:protocollo@cert.comunefelicity.eu">protocollo@cert.comunefelicity.eu</a></p>
   </footer>
 </body>
 </html>
